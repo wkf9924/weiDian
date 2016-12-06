@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ShopnewTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04805f1d72fa34fa.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Tuc-rW-WIv">
+                        <rect key="frame" x="267" y="4" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="3Xg-QQ-jvI"/>
+                            <constraint firstAttribute="height" constant="45" id="bey-Zq-FF9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8歌必听！11岁男孩唱《贝加尔湖畔》,张信哲唱😢吴昕" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyg-Mw-j4a">
+                        <rect key="frame" x="8" y="2" width="251" height="65"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qyg-Mw-j4a" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="NBX-y4-Wfs"/>
+                    <constraint firstItem="qyg-Mw-j4a" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="PE2-vi-zL2"/>
+                    <constraint firstAttribute="trailing" secondItem="Tuc-rW-WIv" secondAttribute="trailing" constant="8" id="U3V-6i-e4Z"/>
+                    <constraint firstAttribute="bottom" secondItem="qyg-Mw-j4a" secondAttribute="bottom" constant="2" id="VYf-KB-chs"/>
+                    <constraint firstItem="Tuc-rW-WIv" firstAttribute="leading" secondItem="qyg-Mw-j4a" secondAttribute="trailing" constant="8" id="aIX-gQ-gYg"/>
+                    <constraint firstItem="Tuc-rW-WIv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="qbG-XM-d4s"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="418" y="369"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="04805f1d72fa34fa.jpg" width="633" height="312"/>
+    </resources>
+</document>

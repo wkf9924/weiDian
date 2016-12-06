@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="PlaceorderTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7pA-kf-DkO">
+                        <rect key="frame" x="13" y="10" width="57" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="57" id="DRP-N7-2Gm"/>
+                            <constraint firstAttribute="height" constant="60" id="a2c-Hv-SQI"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="七匹狼夹克男装2016春装新款双面夹克男商务夹克衫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93a-rn-dHK">
+                        <rect key="frame" x="75" y="10" width="234" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="黑色/39/x1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v60-aE-kOT">
+                        <rect key="frame" x="75" y="32" width="60" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥192.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRT-LN-PaI">
+                        <rect key="frame" x="75" y="54" width="55" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.99215686270000003" green="0.53725490200000003" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7pA-kf-DkO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="8sP-3H-7Ky"/>
+                    <constraint firstItem="7pA-kf-DkO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="A30-aH-agN"/>
+                    <constraint firstItem="v60-aE-kOT" firstAttribute="top" secondItem="93a-rn-dHK" secondAttribute="bottom" constant="7" id="J75-sX-sM2"/>
+                    <constraint firstItem="v60-aE-kOT" firstAttribute="leading" secondItem="93a-rn-dHK" secondAttribute="leading" id="RDr-59-DBW"/>
+                    <constraint firstItem="93a-rn-dHK" firstAttribute="leading" secondItem="7pA-kf-DkO" secondAttribute="trailing" constant="5" id="UTN-eM-ehZ"/>
+                    <constraint firstAttribute="trailing" secondItem="93a-rn-dHK" secondAttribute="trailing" constant="11" id="VFX-xs-2V6"/>
+                    <constraint firstItem="VRT-LN-PaI" firstAttribute="bottom" secondItem="7pA-kf-DkO" secondAttribute="bottom" id="ZWd-yC-V7W"/>
+                    <constraint firstItem="93a-rn-dHK" firstAttribute="top" secondItem="7pA-kf-DkO" secondAttribute="top" id="dTX-go-7pg"/>
+                    <constraint firstItem="VRT-LN-PaI" firstAttribute="leading" secondItem="93a-rn-dHK" secondAttribute="leading" id="ylO-6A-bDx"/>
+                </constraints>
+            </tableViewCellContentView>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="2.jpg" width="512" height="627"/>
+    </resources>
+</document>

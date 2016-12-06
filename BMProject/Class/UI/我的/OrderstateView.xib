@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="iN0-l3-epB" customClass="OrderstateView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="251" image="iconfont-daishouhuo.png" translatesAutoresizingMaskIntoConstraints="NO" id="7YR-3X-Tji">
+                    <rect key="frame" x="116" y="8" width="35" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="FOa-DO-Pcl"/>
+                        <constraint firstAttribute="height" constant="23" id="eM9-J7-NNc"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="251" image="iconfont-yishouhuo.png" translatesAutoresizingMaskIntoConstraints="NO" id="sL2-Y7-ttw">
+                    <rect key="frame" x="204" y="8" width="35" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="646-g6-aK3"/>
+                        <constraint firstAttribute="width" constant="35" id="NPL-x3-RgC"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconfont-yiwancheng.png" translatesAutoresizingMaskIntoConstraints="NO" id="vVS-iD-PLR">
+                    <rect key="frame" x="314" y="8" width="35" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="23" id="Xh3-U0-tFy"/>
+                        <constraint firstAttribute="width" constant="35" id="Zfw-Cl-O8u"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIf-id-DqK">
+                    <rect key="frame" x="26" y="34" width="36" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="待付款">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XbN-0L-1AS">
+                    <rect key="frame" x="116" y="34" width="36" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="待收货">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="038-fk-Zua">
+                    <rect key="frame" x="317" y="34" width="30" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="评论">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qHf-nI-Kn6">
+                    <rect key="frame" x="0.0" y="61" width="375" height="19"/>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zxz-YF-VG5">
+                    <rect key="frame" x="204" y="34" width="36" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="已收货">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconfont-daifukuan.png" translatesAutoresizingMaskIntoConstraints="NO" id="7yw-DV-xqd">
+                    <rect key="frame" x="26" y="8" width="35" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="ZsP-XO-I21"/>
+                        <constraint firstAttribute="height" constant="23" id="gx4-5h-eEf"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="vVS-iD-PLR" secondAttribute="trailing" constant="26" id="1ye-Re-VqP"/>
+                <constraint firstItem="038-fk-Zua" firstAttribute="centerY" secondItem="NIf-id-DqK" secondAttribute="centerY" id="4BP-Aj-HZ3"/>
+                <constraint firstItem="7YR-3X-Tji" firstAttribute="centerX" secondItem="XbN-0L-1AS" secondAttribute="centerX" id="6Sg-EX-EgD"/>
+                <constraint firstItem="7YR-3X-Tji" firstAttribute="leading" secondItem="7yw-DV-xqd" secondAttribute="trailing" constant="55" id="ICz-Aq-xGR"/>
+                <constraint firstItem="7yw-DV-xqd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="26" id="NJH-7s-VXQ"/>
+                <constraint firstItem="sL2-Y7-ttw" firstAttribute="centerX" secondItem="Zxz-YF-VG5" secondAttribute="centerX" id="PtB-Ov-YGt"/>
+                <constraint firstItem="sL2-Y7-ttw" firstAttribute="leading" secondItem="7YR-3X-Tji" secondAttribute="trailing" constant="53" id="Qfy-qB-iIQ"/>
+                <constraint firstAttribute="bottom" secondItem="qHf-nI-Kn6" secondAttribute="bottom" id="VJy-UN-LIz"/>
+                <constraint firstItem="qHf-nI-Kn6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Ve4-lZ-OZ2"/>
+                <constraint firstItem="vVS-iD-PLR" firstAttribute="centerY" secondItem="7yw-DV-xqd" secondAttribute="centerY" id="WYQ-n3-vci"/>
+                <constraint firstItem="XbN-0L-1AS" firstAttribute="centerY" secondItem="NIf-id-DqK" secondAttribute="centerY" id="ZgY-Hn-ULQ"/>
+                <constraint firstItem="7YR-3X-Tji" firstAttribute="centerY" secondItem="7yw-DV-xqd" secondAttribute="centerY" id="aCJ-0y-XHs"/>
+                <constraint firstItem="sL2-Y7-ttw" firstAttribute="centerY" secondItem="7YR-3X-Tji" secondAttribute="centerY" id="am4-SK-UE9"/>
+                <constraint firstItem="7yw-DV-xqd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="cor-L7-Oyq"/>
+                <constraint firstItem="NIf-id-DqK" firstAttribute="centerX" secondItem="7yw-DV-xqd" secondAttribute="centerX" id="glY-AR-Yma"/>
+                <constraint firstItem="NIf-id-DqK" firstAttribute="top" secondItem="7yw-DV-xqd" secondAttribute="bottom" constant="3" id="j0L-vw-bdu"/>
+                <constraint firstItem="vVS-iD-PLR" firstAttribute="leading" secondItem="sL2-Y7-ttw" secondAttribute="trailing" constant="75" id="jEm-2p-8a2"/>
+                <constraint firstItem="Zxz-YF-VG5" firstAttribute="centerY" secondItem="NIf-id-DqK" secondAttribute="centerY" id="qPc-u3-6sR"/>
+                <constraint firstAttribute="trailing" secondItem="qHf-nI-Kn6" secondAttribute="trailing" id="sgY-d6-ZQs"/>
+                <constraint firstItem="qHf-nI-Kn6" firstAttribute="top" secondItem="038-fk-Zua" secondAttribute="bottom" id="uV7-Rf-Cmr"/>
+                <constraint firstItem="vVS-iD-PLR" firstAttribute="centerX" secondItem="038-fk-Zua" secondAttribute="centerX" id="yMm-65-swg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="awaitingpayment" destination="7yw-DV-xqd" id="A6v-tp-mYm"/>
+                <outlet property="bcompletedimage" destination="vVS-iD-PLR" id="nqC-wg-NRy"/>
+                <outlet property="fourspacing" destination="jEm-2p-8a2" id="m2Y-wY-0XQ"/>
+                <outlet property="fourstatebutton" destination="038-fk-Zua" id="A0n-rr-UUR"/>
+                <outlet property="onestatebutton" destination="NIf-id-DqK" id="rRC-xg-rNU"/>
+                <outlet property="receiptgoodsimage" destination="sL2-Y7-ttw" id="X29-AR-yMp"/>
+                <outlet property="threespacing" destination="Qfy-qB-iIQ" id="l8o-km-bSh"/>
+                <outlet property="threestatebutton" destination="Zxz-YF-VG5" id="oua-fh-9K0"/>
+                <outlet property="twospacing" destination="ICz-Aq-xGR" id="uJn-9H-rNT"/>
+                <outlet property="twostatebutton" destination="XbN-0L-1AS" id="as3-3G-2d6"/>
+                <outlet property="wftrImage" destination="7YR-3X-Tji" id="buR-Jl-agI"/>
+            </connections>
+            <point key="canvasLocation" x="209.5" y="675"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iconfont-daifukuan.png" width="32" height="32"/>
+        <image name="iconfont-daishouhuo.png" width="32" height="32"/>
+        <image name="iconfont-yishouhuo.png" width="32" height="32"/>
+        <image name="iconfont-yiwancheng.png" width="32" height="32"/>
+    </resources>
+</document>

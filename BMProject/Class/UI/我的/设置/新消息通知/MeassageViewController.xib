@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MeassageViewController">
+            <connections>
+                <outlet property="switchMeassage" destination="TTz-un-OZl" id="c2j-Pv-Cae"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kfI-WZ-gWD">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                    <subviews>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TTz-un-OZl">
+                            <rect key="frame" x="251" y="12" width="51" height="31"/>
+                            <connections>
+                                <action selector="swichchange:" destination="-1" eventType="valueChanged" id="AC9-2D-1uF"/>
+                            </connections>
+                        </switch>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="接受新消息通知" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGQ-ev-fIX">
+                            <rect key="frame" x="20" y="17" width="119" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="TTz-un-OZl" secondAttribute="trailing" constant="20" id="Cy4-lq-S2d"/>
+                        <constraint firstItem="xGQ-ev-fIX" firstAttribute="leading" secondItem="kfI-WZ-gWD" secondAttribute="leading" constant="20" id="Fje-Mf-5nd"/>
+                        <constraint firstItem="TTz-un-OZl" firstAttribute="centerY" secondItem="xGQ-ev-fIX" secondAttribute="centerY" id="GAI-PF-tTQ"/>
+                        <constraint firstItem="xGQ-ev-fIX" firstAttribute="centerY" secondItem="kfI-WZ-gWD" secondAttribute="centerY" id="REK-W0-H7D"/>
+                        <constraint firstAttribute="height" constant="55" id="hy9-0s-mlw"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="      选择关闭将接受不到任何消息" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njg-x2-xsu">
+                    <rect key="frame" x="0.0" y="63" width="320" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.96296953910000005" green="0.96296953910000005" blue="0.96296953910000005" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="kfI-WZ-gWD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="GjH-ge-eJZ"/>
+                <constraint firstAttribute="trailing" secondItem="kfI-WZ-gWD" secondAttribute="trailing" id="R0e-7J-hsN"/>
+                <constraint firstItem="njg-x2-xsu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aHM-1C-0fp"/>
+                <constraint firstItem="njg-x2-xsu" firstAttribute="top" secondItem="kfI-WZ-gWD" secondAttribute="bottom" constant="8" id="gB6-3c-P3j"/>
+                <constraint firstItem="kfI-WZ-gWD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hCU-Ps-zAx"/>
+                <constraint firstAttribute="trailing" secondItem="njg-x2-xsu" secondAttribute="trailing" id="jQZ-h1-ico"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="342" y="346"/>
+        </view>
+    </objects>
+</document>

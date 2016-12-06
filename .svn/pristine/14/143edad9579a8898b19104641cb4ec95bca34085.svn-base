@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aroundfriends_bar_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="S1H-JN-DqT">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="Yxk-yL-ieO"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登陆注册" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wn2-Md-YcK">
+                    <rect key="frame" x="126" y="30" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQ3-mQ-3xp">
+                    <rect key="frame" x="277" y="26" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="7GT-2y-oYp"/>
+                        <constraint firstAttribute="width" constant="30" id="AmS-Pv-2ta"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="关闭.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nQ3-mQ-3xp" secondAttribute="trailing" constant="13" id="4YV-4R-SIH"/>
+                <constraint firstItem="Wn2-Md-YcK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="AV9-bM-2Ra"/>
+                <constraint firstItem="nQ3-mQ-3xp" firstAttribute="centerY" secondItem="Wn2-Md-YcK" secondAttribute="centerY" id="DMY-sZ-EgP"/>
+                <constraint firstItem="Wn2-Md-YcK" firstAttribute="centerY" secondItem="S1H-JN-DqT" secondAttribute="centerY" id="GM0-OR-r2W"/>
+                <constraint firstItem="S1H-JN-DqT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="H8X-ey-LPc"/>
+                <constraint firstItem="S1H-JN-DqT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KXa-4C-0B5"/>
+                <constraint firstItem="Wn2-Md-YcK" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="aB7-hH-cd3"/>
+                <constraint firstAttribute="trailing" secondItem="S1H-JN-DqT" secondAttribute="trailing" id="qhC-PA-eDb"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="GM0-OR-r2W"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="497" y="274"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="aroundfriends_bar_bg.png" width="320" height="45"/>
+        <image name="关闭.png" width="64" height="64"/>
+    </resources>
+</document>

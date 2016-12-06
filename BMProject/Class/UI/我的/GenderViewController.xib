@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GenderViewController">
+            <connections>
+                <outlet property="gendertableview" destination="geI-nR-gTy" id="1GQ-PZ-cJ7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="geI-nR-gTy">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="153" id="Na7-wX-PMn"/>
+                        <constraint firstAttribute="height" constant="90" id="gU4-to-WnF"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Na7-wX-PMn"/>
+                            <exclude reference="gU4-to-WnF"/>
+                        </mask>
+                    </variation>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.96296953910000005" green="0.96296953910000005" blue="0.96296953910000005" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="geI-nR-gTy" secondAttribute="bottom" id="Ps7-rF-s1C"/>
+                <constraint firstAttribute="trailing" secondItem="geI-nR-gTy" secondAttribute="trailing" id="hBq-wa-naj"/>
+                <constraint firstAttribute="bottom" secondItem="geI-nR-gTy" secondAttribute="bottom" constant="200" id="mEu-LL-fCY"/>
+                <constraint firstItem="geI-nR-gTy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pg5-DP-vtr"/>
+                <constraint firstItem="geI-nR-gTy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="yKf-Iz-lIh"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="mEu-LL-fCY"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="290" y="298"/>
+        </view>
+    </objects>
+</document>

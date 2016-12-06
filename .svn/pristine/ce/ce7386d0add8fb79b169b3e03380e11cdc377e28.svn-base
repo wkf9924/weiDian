@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OneViewController">
+            <connections>
+                <outlet property="searchDisplayController" destination="Dqh-5H-H7W" id="yj0-KL-qCO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wdTableView" destination="aGo-St-SHW" id="Q7F-Mw-Okg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="aGo-St-SHW">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="aGo-St-SHW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="K8Y-EM-Zdm"/>
+                <constraint firstAttribute="trailing" secondItem="aGo-St-SHW" secondAttribute="trailing" id="LWb-4Y-arQ"/>
+                <constraint firstItem="aGo-St-SHW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Z5q-eU-yDz"/>
+                <constraint firstAttribute="bottom" secondItem="aGo-St-SHW" secondAttribute="bottom" id="bZr-Cp-Tc2"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="159" y="263"/>
+        </view>
+        <searchDisplayController id="bYO-Xe-SgQ">
+            <connections>
+                <outlet property="delegate" destination="-1" id="mwb-fJ-iEB"/>
+                <outlet property="searchContentsController" destination="-1" id="VRw-jW-Hjo"/>
+                <outlet property="searchResultsDataSource" destination="-1" id="z4X-fW-04y"/>
+                <outlet property="searchResultsDelegate" destination="-1" id="7mI-cQ-Ckp"/>
+            </connections>
+        </searchDisplayController>
+        <searchDisplayController id="Dqh-5H-H7W">
+            <connections>
+                <outlet property="delegate" destination="-1" id="nlL-JX-HZe"/>
+                <outlet property="searchContentsController" destination="-1" id="89v-Lw-ygp"/>
+                <outlet property="searchResultsDataSource" destination="-1" id="d7t-Ea-qJH"/>
+                <outlet property="searchResultsDelegate" destination="-1" id="GJX-Y0-8Va"/>
+            </connections>
+        </searchDisplayController>
+    </objects>
+</document>

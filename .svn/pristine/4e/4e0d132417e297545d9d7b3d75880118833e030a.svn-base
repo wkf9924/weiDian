@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="132" id="KGk-i7-Jjw" customClass="XMCommentStarCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="154"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品描述相符" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="96g-iU-FKy" userLabel="Label1">
+                        <rect key="frame" x="10" y="15" width="84" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="物流速度服务" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x0Y-ME-F2M" userLabel="Label2">
+                        <rect key="frame" x="10" y="85" width="84" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bdR-1f-HF7" userLabel="View1">
+                        <rect key="frame" x="150" y="8" width="150" height="30"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="150" id="CRJ-ih-8GB"/>
+                            <constraint firstAttribute="height" constant="30" id="niH-DW-Ct4"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aTW-sD-UFO" userLabel="View3">
+                        <rect key="frame" x="150" y="78" width="150" height="30"/>
+                        <color key="backgroundColor" red="0.91078756309999997" green="0.7323421001" blue="0.17222341360000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="卖家服务态度" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1nn-E9-Ior" userLabel="Label3">
+                        <rect key="frame" x="10" y="50" width="84" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MxK-Zw-1gr" userLabel="View2">
+                        <rect key="frame" x="150" y="43" width="150" height="30"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KJ4-Tu-civ" userLabel="View3">
+                        <rect key="frame" x="150" y="113" width="150" height="30"/>
+                        <color key="backgroundColor" red="0.91078756309999997" green="0.7323421001" blue="0.17222341360000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="配送人员服务" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sI9-O8-2jk" userLabel="Label2">
+                        <rect key="frame" x="10" y="120" width="84" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aTW-sD-UFO" firstAttribute="trailing" secondItem="bdR-1f-HF7" secondAttribute="trailing" id="6ax-ye-d7T"/>
+                    <constraint firstItem="aTW-sD-UFO" firstAttribute="leading" secondItem="bdR-1f-HF7" secondAttribute="leading" id="7A9-Sr-ocf"/>
+                    <constraint firstItem="MxK-Zw-1gr" firstAttribute="leading" secondItem="bdR-1f-HF7" secondAttribute="leading" id="7lI-p8-Ceg"/>
+                    <constraint firstAttribute="trailing" secondItem="bdR-1f-HF7" secondAttribute="trailing" constant="20" id="84L-j5-Ptd"/>
+                    <constraint firstItem="1nn-E9-Ior" firstAttribute="leading" secondItem="96g-iU-FKy" secondAttribute="leading" id="94K-DV-zZi"/>
+                    <constraint firstItem="MxK-Zw-1gr" firstAttribute="height" secondItem="bdR-1f-HF7" secondAttribute="height" id="9N8-88-pgH"/>
+                    <constraint firstItem="KJ4-Tu-civ" firstAttribute="top" secondItem="aTW-sD-UFO" secondAttribute="bottom" constant="5" id="AZh-0n-aEw"/>
+                    <constraint firstItem="MxK-Zw-1gr" firstAttribute="centerY" secondItem="1nn-E9-Ior" secondAttribute="centerY" id="DfC-eQ-4h1"/>
+                    <constraint firstItem="MxK-Zw-1gr" firstAttribute="trailing" secondItem="bdR-1f-HF7" secondAttribute="trailing" id="Dt9-8A-ECP"/>
+                    <constraint firstItem="KJ4-Tu-civ" firstAttribute="height" secondItem="bdR-1f-HF7" secondAttribute="height" id="MCw-Cl-jDE"/>
+                    <constraint firstItem="aTW-sD-UFO" firstAttribute="centerY" secondItem="x0Y-ME-F2M" secondAttribute="centerY" id="OgG-Vm-hvi"/>
+                    <constraint firstItem="MxK-Zw-1gr" firstAttribute="top" secondItem="bdR-1f-HF7" secondAttribute="bottom" constant="5" id="Sec-7o-rti"/>
+                    <constraint firstItem="96g-iU-FKy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ThB-8I-Nl4"/>
+                    <constraint firstItem="KJ4-Tu-civ" firstAttribute="leading" secondItem="bdR-1f-HF7" secondAttribute="leading" id="U48-tE-28f"/>
+                    <constraint firstItem="KJ4-Tu-civ" firstAttribute="centerY" secondItem="sI9-O8-2jk" secondAttribute="centerY" id="YHI-A5-Chq"/>
+                    <constraint firstItem="bdR-1f-HF7" firstAttribute="centerY" secondItem="96g-iU-FKy" secondAttribute="centerY" id="YTT-gc-xwV"/>
+                    <constraint firstItem="aTW-sD-UFO" firstAttribute="width" secondItem="bdR-1f-HF7" secondAttribute="width" id="bE0-Jm-jPx"/>
+                    <constraint firstItem="KJ4-Tu-civ" firstAttribute="trailing" secondItem="bdR-1f-HF7" secondAttribute="trailing" id="bQu-Ew-dA5"/>
+                    <constraint firstItem="sI9-O8-2jk" firstAttribute="leading" secondItem="96g-iU-FKy" secondAttribute="leading" id="eqH-CU-DUn"/>
+                    <constraint firstItem="aTW-sD-UFO" firstAttribute="top" secondItem="MxK-Zw-1gr" secondAttribute="bottom" constant="5" id="fDt-sL-xWp"/>
+                    <constraint firstItem="bdR-1f-HF7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="lF0-qa-jWc"/>
+                    <constraint firstItem="x0Y-ME-F2M" firstAttribute="leading" secondItem="96g-iU-FKy" secondAttribute="leading" id="mir-4V-pEu"/>
+                    <constraint firstItem="aTW-sD-UFO" firstAttribute="height" secondItem="bdR-1f-HF7" secondAttribute="height" id="qYB-tc-dp3"/>
+                    <constraint firstItem="MxK-Zw-1gr" firstAttribute="width" secondItem="bdR-1f-HF7" secondAttribute="width" id="uKR-bR-u38"/>
+                    <constraint firstItem="KJ4-Tu-civ" firstAttribute="width" secondItem="bdR-1f-HF7" secondAttribute="width" id="yMO-gJ-fAh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="starFirst" destination="bdR-1f-HF7" id="Mg4-OO-yhv"/>
+                <outlet property="starFour" destination="KJ4-Tu-civ" id="6Lw-nQ-SG9"/>
+                <outlet property="starSed" destination="MxK-Zw-1gr" id="lNg-SL-lKp"/>
+                <outlet property="starThird" destination="aTW-sD-UFO" id="cnQ-hV-QVf"/>
+            </connections>
+            <point key="canvasLocation" x="448" y="206.5"/>
+        </tableViewCell>
+    </objects>
+</document>

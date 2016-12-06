@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PamenModeViewController">
+            <connections>
+                <outlet property="heardView" destination="9ZD-fo-V68" id="iBn-vw-NQ8"/>
+                <outlet property="impaymentbut" destination="UbO-CE-EW2" id="aIR-7X-zvR"/>
+                <outlet property="paymentName" destination="CLM-7I-ety" id="Ktz-mG-fo6"/>
+                <outlet property="paymentPrice" destination="Vrm-bL-suO" id="zfB-eY-M4y"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UbO-CE-EW2">
+                    <rect key="frame" x="20" y="480" width="280" height="44"/>
+                    <color key="backgroundColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="UYU-FI-I0O"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <state key="normal" title=" 立即支付">
+                        <color key="titleColor" white="0.95999999999999996" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="paymenbut:" destination="-1" eventType="touchUpInside" id="d3K-f9-tNQ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.92941176470588238" green="0.92941176470588238" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="UbO-CE-EW2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="1sL-BA-RCh"/>
+                <constraint firstAttribute="trailing" secondItem="UbO-CE-EW2" secondAttribute="trailing" constant="20" id="Pmj-Es-3rW"/>
+                <constraint firstAttribute="bottom" secondItem="UbO-CE-EW2" secondAttribute="bottom" constant="44" id="SND-Z8-Kgz"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="23" y="527"/>
+        </view>
+        <view contentMode="scaleToFill" id="9ZD-fo-V68">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="139.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vrm-bL-suO">
+                    <rect key="frame" x="104" y="38" width="47" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单详情 :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4I-mE-HJS">
+                    <rect key="frame" x="15" y="10" width="69" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="休闲西服" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLM-7I-ety">
+                    <rect key="frame" x="104" y="10" width="60" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zDV-8Z-eY7">
+                    <rect key="frame" x="0.0" y="64" width="320" height="36"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择支付方式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kps-Ru-sq0">
+                            <rect key="frame" x="15" y="9" width="90" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="kps-Ru-sq0" firstAttribute="centerY" secondItem="zDV-8Z-eY7" secondAttribute="centerY" id="kiv-oq-2U5"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="订单金额 :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="omI-uk-14p">
+                    <rect key="frame" x="15" y="38" width="69" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="zDV-8Z-eY7" firstAttribute="leading" secondItem="9ZD-fo-V68" secondAttribute="leading" id="1sC-t9-7Lp"/>
+                <constraint firstItem="zDV-8Z-eY7" firstAttribute="top" secondItem="omI-uk-14p" secondAttribute="bottom" constant="8" id="5S1-af-9rJ"/>
+                <constraint firstAttribute="trailing" secondItem="zDV-8Z-eY7" secondAttribute="trailing" id="8Wn-du-4ei"/>
+                <constraint firstItem="Vrm-bL-suO" firstAttribute="centerY" secondItem="omI-uk-14p" secondAttribute="centerY" id="E5E-bZ-4G0"/>
+                <constraint firstAttribute="bottom" secondItem="zDV-8Z-eY7" secondAttribute="bottom" id="Kdx-zu-ncn"/>
+                <constraint firstItem="d4I-mE-HJS" firstAttribute="top" secondItem="9ZD-fo-V68" secondAttribute="top" constant="10" id="LxI-Eu-NPy"/>
+                <constraint firstItem="Vrm-bL-suO" firstAttribute="leading" secondItem="CLM-7I-ety" secondAttribute="leading" id="OtA-Hc-P83"/>
+                <constraint firstItem="omI-uk-14p" firstAttribute="top" secondItem="d4I-mE-HJS" secondAttribute="bottom" constant="10" id="QZT-0G-u0n"/>
+                <constraint firstItem="CLM-7I-ety" firstAttribute="centerY" secondItem="d4I-mE-HJS" secondAttribute="centerY" id="R94-6O-kbX"/>
+                <constraint firstItem="omI-uk-14p" firstAttribute="leading" secondItem="d4I-mE-HJS" secondAttribute="leading" id="h53-JU-U8K"/>
+                <constraint firstItem="CLM-7I-ety" firstAttribute="leading" secondItem="d4I-mE-HJS" secondAttribute="trailing" constant="20" id="hLh-EX-1e0"/>
+                <constraint firstItem="kps-Ru-sq0" firstAttribute="leading" secondItem="d4I-mE-HJS" secondAttribute="leading" id="zOr-Vh-Sb3"/>
+                <constraint firstItem="d4I-mE-HJS" firstAttribute="leading" secondItem="9ZD-fo-V68" secondAttribute="leading" constant="15" id="zPW-dx-IwQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="32" y="115"/>
+        </view>
+    </objects>
+</document>

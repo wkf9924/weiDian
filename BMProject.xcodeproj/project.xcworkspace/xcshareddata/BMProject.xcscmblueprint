@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a40bf5d3-6bf2-6b41-804f-8f011660e0e2++2201",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a40bf5d3-6bf2-6b41-804f-8f011660e0e2++2201" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a40bf5d3-6bf2-6b41-804f-8f011660e0e2++2201" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DB060040-FC85-4E60-9922-4BAF5370DB20",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a40bf5d3-6bf2-6b41-804f-8f011660e0e2++2201" : "iosProject\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BMProject",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QXWeiDian\/BMProject.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.2.10\/svn\/weshop",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a40bf5d3-6bf2-6b41-804f-8f011660e0e2++2201"
+    }
+  ]
+}
